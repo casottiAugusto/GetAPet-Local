@@ -1,0 +1,65 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.project
+.classpath
+.settings/
+
+# Docker
+docker-compose.override.yml
+
+# MongoDB data (se estiver local)
+data/
+mongo_data/
+
+# Build files
+dist/
+build/
+*.tgz
+
+# Public uploads (arquivos enviados por usuários)
+backend/public/images/users/*
+backend/public/images/pets/*
+!backend/public/images/users/.gitkeep
+!backend/public/images/pets/.gitkeep
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Package manager lock files (opcional - descomente se preferir)
+# package-lock.json
+# yarn.lock
